@@ -98,7 +98,7 @@ header {
 
 nav {
     display: flex;
-    gap: 20px;
+    gap: 60px;
 }
 
 nav a {
@@ -479,7 +479,7 @@ nav a:hover {
     }
 
     .sign-in {
-        display: none;
+        display: block;
     }
 
     .menu-toggle.active+nav {
@@ -515,7 +515,9 @@ nav a:hover {
         cursor: pointer;
         color: #000;
     }
-
+    .sign-in {
+        display: none;
+    }
     nav {
         position: absolute;
         top: 2.4rem;
