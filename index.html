@@ -163,17 +163,17 @@
         </div>
     </footer>
     <script>
-        window.onload = function() {
+        window.onload = function () {
             const popup = document.getElementById("popup");
             const closeBtn = document.getElementById("close-btn");
-    
+
             // Automatically hide the pop-up after 3 seconds
             setTimeout(() => {
                 popup.style.display = "none";
             }, 3000);
-    
+
             // Close button click event
-            closeBtn.onclick = function() {
+            closeBtn.onclick = function () {
                 popup.style.display = "none";
             };
         };

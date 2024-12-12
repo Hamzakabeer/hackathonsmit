@@ -7,6 +7,7 @@
 body {
     font-family: Arial, sans-serif;
 }
+
 /* Pop-up Styling */
 .popup {
     position: fixed;
@@ -44,12 +45,14 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
 /* Pop-up Animation */
 @keyframes popUp {
     0% {
         transform: scale(0.5);
         opacity: 0;
     }
+
     100% {
         transform: scale(1);
         opacity: 1;
@@ -73,10 +76,12 @@ header {
     align-items: center;
     gap: 8px;
 }
-.m-host{
+
+.m-host {
     text-decoration: none;
     color: #000;
 }
+
 .logo img {
     width: 24px;
     height: 24px;
@@ -408,6 +413,7 @@ nav a:hover {
     border-radius: 4px;
     cursor: pointer;
 }
+
 .email-subscription button:hover {
     background-color: #444;
 }
@@ -418,6 +424,7 @@ nav a:hover {
     }
 
 }
+
 @media (max-width: 936px) {
     .footer-bottom {
         align-items: center;
@@ -428,6 +435,7 @@ nav a:hover {
     }
 
 }
+
 @media (max-width: 768px) {
     nav {
         display: none;
@@ -494,12 +502,15 @@ nav a:hover {
         transform: scaleX(1.1);
         background-color: #f0f0f0;
     }
-    .features-container{
+
+    .features-container {
         width: 90%;
     }
-    .features-grid{
+
+    .features-grid {
         width: 90%;
     }
+
     .footer-layout {
         flex-direction: column;
         align-items: center;
