@@ -454,7 +454,6 @@ nav a:hover {
         padding: 8px 16px;
         font-size: 0.9rem;
     }
-
     nav {
         display: none;
         /* Hide navigation links on smaller screens */
@@ -565,7 +564,7 @@ nav a:hover {
 /* For Extra Small Mobile Screens (up to 360px) */
 @media (max-width: 360px) {
     .popup-content {
-        padding: 10px 15px; 
+        padding: 10px 15px;
         width: 80%;
         max-width: 300px; 
     }
