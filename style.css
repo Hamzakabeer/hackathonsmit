@@ -115,7 +115,19 @@ nav a:hover {
 .n-b {
     display: none;
 }
-
+.n-b>.gdn{
+    padding: 8px 16px;
+    background-color: #000;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.n-b>.gdn{
+    background-color: #333;
+}
 .sign-in {
     padding: 8px 16px;
     background-color: #000;
@@ -518,6 +530,9 @@ nav a:hover {
         color: black;
         transform: scaleX(1.1);
         background-color: #f0f0f0;
+    }
+    nav .n-b{
+        display: block;
     }
 
     .features-container {
