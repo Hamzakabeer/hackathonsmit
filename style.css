@@ -544,6 +544,15 @@ nav a:hover {
     .features-grid {
         width: 90%;
     }
+    .footer-section,.q-m{
+        display: flex;
+        flex-direction: row;
+    }
+   .s-u{
+    margin-top: 12px;
+    margin-right: 5px;
+
+   }
 
     .footer-layout {
         flex-direction: column;
@@ -560,6 +569,14 @@ nav a:hover {
     }
 
 }
+
+/* For Small Mobile Screens (up to 480px) */
+@media (max-width: 400px) {
+    .footer-section .s-u{
+        font-size: 0.9rem;
+     
+        }
+}
 /* For Small Mobile Screens (up to 480px) */
 @media (max-width: 480px) {
     .popup-content {
@@ -571,7 +588,11 @@ nav a:hover {
     .popup-content h2 {
         font-size: 1.1rem; 
     }
-
+    .s-u{
+        margin-top: 12px;
+        margin-right: 5px;
+    
+       }
     .popup-content button {
         padding: 6px 12px; 
         font-size: 0.75rem; 
@@ -594,4 +615,11 @@ nav a:hover {
         padding: 5px 10px; 
         font-size: 0.7rem; 
     }
+    .email-subscription{
+        width: 60%;
+    }
+    .footer-section .s-u{
+       font-size: 0.6rem;
+    
+       }
 }
